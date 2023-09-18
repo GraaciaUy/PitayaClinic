@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "890944912877",
+    "project_id": "dragonfruitapp-1f65f",
+    "storage_bucket": "dragonfruitapp-1f65f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890944912877:android:6f8c93748c7945e23e3be4",
+        "android_client_info": {
+          "package_name": "com.example.dragonfruitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890944912877-6qek2fuvriierq68nnuetnofppj35s10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dragonfruitapp",
+            "certificate_hash": "5c65196f14f20a3dbed221a2eb250dcb9b604cb5"
+          }
+        },
+        {
+          "client_id": "890944912877-obo661v2hpedqq3bbuq3q6ikdgt1ufis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABzlS9ObISNWr6bmDiTqv6HnC3C7XlFfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890944912877-obo661v2hpedqq3bbuq3q6ikdgt1ufis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

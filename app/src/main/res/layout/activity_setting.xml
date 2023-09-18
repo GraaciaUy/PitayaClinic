@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    android:layout_gravity="fill"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.theme.SettingActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/settings" />
+
+    <Button
+        android:id="@+id/btnprofile"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:backgroundTint="@color/velvet"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="400dp"
+
+        android:text="PROFILE" />
+
+    <Button
+        android:id="@+id/btnuploadimage"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:backgroundTint="@color/velvet"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="500dp"
+        android:text="UPLOAD IMAGE" />
+
+    <Button
+        android:id="@+id/btnaboutus"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:backgroundTint="@color/velvet"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="600dp"
+        android:text="ABOUT US" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/pitayaapplogo" />
+
+    <ImageView
+        android:id="@+id/settingbackbutton"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="13dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/backbutton" />
+
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/pitayalogo"
+        android:layout_width="290dp"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/pitayaapplogo" />
+
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pitayalogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/velvet"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/reglink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Not yet registered?"
+        android:textColor="#A72251"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reglink"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/velvet"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="Register"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/noaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text=" Continue without account?"
+        android:textColor="#508339"
+        android:textStyle="bold" />
+     <Button
+        android:id="@+id/btnnoaccount"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reglink"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="#508339"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="PROCEED"
+        android:layout_marginTop="110dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#508339"
+        android:text="__________________________________________" />
+
+</RelativeLayout>

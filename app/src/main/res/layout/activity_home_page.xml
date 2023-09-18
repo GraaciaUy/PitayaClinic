@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    android:layout_gravity="fill"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.theme.HomePage">
+
+
+    <ImageView
+        android:id="@+id/btnfileupload"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/uploadimageicon" />
+
+    <ImageView
+        android:id="@+id/btnsettings"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/settingicon" />
+
+
+    <ImageView
+        android:id="@+id/btnpitayacliniclogo"
+        android:layout_width="450dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/pitayahomepage" />
+
+    <ImageView
+        android:id="@+id/btnhealthypitaya"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        app:srcCompat="@drawable/healthy" />
+
+    <ImageView
+        android:id="@+id/btnpitayapest"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        app:srcCompat="@drawable/pests" />
+
+    <ImageView
+        android:id="@+id/btnpitayadiseases"
+        android:layout_width="520dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="545dp"
+        app:srcCompat="@drawable/diseases" />
+
+</RelativeLayout>
